@@ -1,0 +1,65 @@
+body {
+  
+  background: url("../images/concrete_seamless.png");
+}
+
+
+h1 {
+    background-color: #aa654a;
+}
+
+h1, h2 {
+    font-family: Verdana, 'Times New Roman', Times, serif
+}
+
+h2 {
+    color: #aa654a;
+}
+
+a {
+    color: #666;
+    transition: color ease .1s;
+}
+
+a:hover {
+    color: #aa654a;
+    text-decoration: none;
+    transition: color ease .1s;
+}
+
+/* https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/ */
+/* Option #2 */
+/* https://css-tricks.com/viewport-sized-typography/ */
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh); 
+}
+
+.caption {
+    top: 75%;
+    left: 0;
+    padding: 0px 15px;
+}
+
+.caption a {
+    background-color: #aa654a;
+}
+
+.carousel-caption h5 {
+    background-color: #aa654a;
+    color: #FFF;
+}
+
+.btn {
+    background-color: #aa654a;
+    color: #FFF;
+}
+
+.btn:hover {
+    color: #aa654a;
+    background-color: #FFF;
+    border: solid 1px #aa654a;
+}
+
+footer {
+    border-top: solid 8px #aa654a;
+}
